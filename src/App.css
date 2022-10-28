@@ -1,0 +1,43 @@
+.weatherBox {
+  box-shadow: black 10px 0px 29px 0px;
+  height: 500px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 50px;
+  z-index: 99999;
+  background: rgba(white, 0.2);
+  
+}
+
+.homeIcon {
+  margin-left: 80px;
+  margin-top: 20px;
+  height: 300px;
+}
+
+.forecast-miniBox {
+  height: 200px;
+  width: 180px;
+  border-radius: 50px;
+  background: rgba(white, 0.2);
+  margin-top: 50px;
+  margin-left: 25px;
+  box-shadow: black 10px 0px 29px 0px
+}
+
+.title-dayList {
+  margin-left: 40px;
+  padding-top: 30px;
+}
+
+.img-dayList {
+  height: 80px;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.title-dayList {
+  margin-left: 40px;
+  padding-top: 15px;
+  font-weight: bold;
+}
