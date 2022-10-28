@@ -3,8 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import background from "./assets/images/background.jpg"
 import { useState } from 'react';
 
-
-
 function App() {
 
   //Create List Day Name
@@ -23,7 +21,6 @@ function App() {
 
   //Event handler
   const onInputCityHandler = (event) => setCityQuery(event.target.value);
-
   const onEnterSearch = async (e) => {
     if (e.key === "Enter") {
       let data = await fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?q=${cityQuery}&units=metric&cnt=5&APPID=${key}`)
